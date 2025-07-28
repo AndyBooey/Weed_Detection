@@ -1,0 +1,25 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# YOLO model weights
+*.pt
+
+# Output video files
+*.avi
+
+# Dataset folders (optional – ignore raw/augmented data)
+not_weed_dataset/
+weed_dataset/
+weed_videos/
+
+# YOLOv8 training outputs (e.g. runs/detect/trainX/)
+runs/
+
+# VSCode settings (if you use them)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
