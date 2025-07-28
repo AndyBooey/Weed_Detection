@@ -10,19 +10,18 @@ All labels were created in Pascal VOC .xml format and converted to YOLO .txt for
 
 ## 📁 Folder Structure
 
-project/
-├── weed_dataset/ # Images with weed and XML annotations 
-├── not_weed_dataset/ # Images without weed (blank annotations)
-├── dataset/ # Output folder after running org.py (YOLOv8 format)
-│ ├── images/train/
-│ ├── images/val/
-│ ├── labels/train/
-│ └── labels/val/
-├── org.py # Organizes data into YOLOv8 format
-├── detect_weed.py # Detects weeds in a video
-├── README.md # You're here!
-└── yolov8n.yaml # Custom YAML for training config (if needed)
-
+- project/
+- ├── weed_dataset/ # Images with weed and XML annotations 
+- ├── not_weed_dataset/ # Images without weed (blank annotations)
+- ├── dataset/ # Output folder after running org.py (YOLOv8 format)
+- │ ├── images/train/
+- │ ├── images/val/
+- │ ├── labels/train/
+- │ └── labels/val/
+- ├── org.py # Organizes data into YOLOv8 format
+- ├── detect_weed.py # Detects weeds in a video
+- ├── README.md # You're here!
+- └── yolov8n.yaml # Custom YAML for training config (if needed)
 
 
 
