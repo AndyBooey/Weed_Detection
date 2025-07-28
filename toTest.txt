@@ -1,0 +1,5 @@
+yolo detect predict model=runs/detect/train7/weights/best.pt source=images/test/
+
+do Window + e
+
+find rrrr
