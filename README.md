@@ -54,8 +54,13 @@ All labels were created in Pascal VOC .xml format and converted to YOLO .txt for
 
 
 ## 🧠 Training the YOLOv8 Model
-## ONLY RUN IF DETECTION VIDEO IS NOT WORKING AS INTENDED##
-yolo detect train model=yolov8n.pt data=dataset/data.yaml epochs=50 imgsz=640
+### ONLY RUN IF DETECTION VIDEO IS NOT WORKING AS INTENDED
+> 🖥️ **Run Command:**
+> ```bash
+> yolo detect train model=yolov8n.pt data=dataset/data.yaml epochs=50 imgsz=640
+> ```
+
+---
 
 
 
@@ -65,10 +70,11 @@ yolo detect train model=yolov8n.pt data=dataset/data.yaml epochs=50 imgsz=640
 ## 🧪 Running Detection on a Video
 - Upload your video file (e.g. .mov, .mp4) to the weed_videos folder.
 - If your video file has a different extension (e.g. .mp4 instead of .mov), update the command accordingly.
+> 🖥️ **Run Command:**
+> ```bash
+> python detect_weed.py weed_videos/path_to_input_video.mov
+> ```
 
-
-
-python detect_weed.py weed_videos/path_to_input_video.mov
 
 
 
