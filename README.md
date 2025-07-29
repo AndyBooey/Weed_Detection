@@ -58,7 +58,16 @@ All labels were created in Pascal VOC .xml format and converted to YOLO .txt for
 yolo detect train model=yolov8n.pt data=dataset/data.yaml epochs=50 imgsz=640
 
 
+
+
+##🚀 How to Run the Program
+------------------------------------------------------------------------------------------------------
 ## 🧪 Running Detection on a Video
+- Upload your video file (e.g. .mov, .mp4) to the weed_videos folder.
+- If your video file has a different extension (e.g. .mp4 instead of .mov), update the command accordingly.
+
+
+
 python detect_weed.py weed_videos/path_to_input_video.mov
 
 
