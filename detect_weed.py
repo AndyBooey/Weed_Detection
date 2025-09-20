@@ -6,7 +6,7 @@ from ultralytics import YOLO
 if len(sys.argv) < 2:
     print("⚠️ Failed to detect video.  Exiting...")
     sys.exit()
-
+ 
 video_path = sys.argv[1]
 
 # Optional: Let user input the model path
