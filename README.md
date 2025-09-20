@@ -1,5 +1,5 @@
 # YOLOv8 Weed Detection AI
-
+ 
 This project builds an AI-powered weed detection system using Python, OpenCV, YOLOv8, and other libraries.  It detects weeds in garden images and videos, labeling them with bounding boxes.
 
 ### 📦 Dataset Overview
