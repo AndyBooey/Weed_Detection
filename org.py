@@ -1,4 +1,4 @@
-
+ 
 #this file organizes all the images into Dataset folder %80 / %20
 
 import os
